@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>go_to.js</title>
+    <style>
+
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+        .section {
+            height: 100vh;
+            position: relative;
+            cursor: pointer;
+        }
+        #first {
+            background: #ff8181;
+        }
+        #second {
+            background: #90e990;
+        }
+        #third {
+            background: #b9b9ef;
+        }
+    </style>
+</head>
+<body>
+    <div id="first" class="section" onclick="goTo(second);"></div>
+    <div id="second" class="section" onclick="goTo(third);"></div>
+    <div id="third" class="section" onclick="goTo(first);"></div>
+    <script src="https://kolgotko.github.io/animate.js/public/animate.min.js"></script>
+    <script src="public/go_to.min.js"></script>
+
+    <script>
+        let first = document.querySelector('#first');
+        let second = document.querySelector('#second');
+        let third = document.querySelector('#third');
+    </script>
+</body>
+</html>
