@@ -12,7 +12,7 @@ gulp.task('build-js', () => {
         .pipe(sourcemaps.init())
         .pipe(babel())
         .pipe(jsmin())
-        .pipe(concat('go_to.min.js'))
+        .pipe(concat('go-to.min.js'))
         .pipe(sourcemaps.write('/maps'))
         .pipe(gulp.dest('./public/'));
 
