@@ -1,5 +1,5 @@
 {
-  "name": "go_to",
+  "name": "go-to",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kolgotko/go_to.js.git"
+    "url": "git+https://github.com/kolgotko/go-to.js.git"
   },
   "author": "kolgotko",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "gulp-sourcemaps": "^2.4.0"
   },
   "bugs": {
-    "url": "https://github.com/kolgotko/go_to.js/issues"
+    "url": "https://github.com/kolgotko/go-to.js/issues"
   },
-  "homepage": "https://github.com/kolgotko/go_to.js#readme"
+  "homepage": "https://github.com/kolgotko/go-to.js#readme"
 }

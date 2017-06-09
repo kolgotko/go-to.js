@@ -1,1 +1,1 @@
-# scroll_to.js
+# go-to.js
