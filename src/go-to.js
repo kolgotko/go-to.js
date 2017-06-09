@@ -27,7 +27,3 @@ const goTo = node => {
     });
 
 }
-
-window.goTo = goTo;
-
-export default goTo;
